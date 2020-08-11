@@ -1,0 +1,136 @@
+{
+    "gt_5733": [
+        {
+            "transcription": "\u5999\u821e\u8f69\u827a\u672f\u751f\u6d3b\u9986", 
+            "points": [
+                [
+                    289, 
+                    81
+                ], 
+                [
+                    1083, 
+                    44
+                ], 
+                [
+                    1087, 
+                    120
+                ], 
+                [
+                    267, 
+                    149
+                ]
+            ], 
+            "illegibility": false
+        }, 
+        {
+            "transcription": "DANCE STUDIO", 
+            "points": [
+                [
+                    120, 
+                    179
+                ], 
+                [
+                    1108, 
+                    148
+                ], 
+                [
+                    1116, 
+                    222
+                ], 
+                [
+                    98, 
+                    242
+                ]
+            ], 
+            "illegibility": false
+        }, 
+        {
+            "transcription": "###", 
+            "points": [
+                [
+                    1044, 
+                    544
+                ], 
+                [
+                    1165, 
+                    542
+                ], 
+                [
+                    1165, 
+                    560
+                ], 
+                [
+                    1047, 
+                    565
+                ]
+            ], 
+            "illegibility": true
+        }, 
+        {
+            "transcription": "###", 
+            "points": [
+                [
+                    1049, 
+                    568
+                ], 
+                [
+                    1170, 
+                    565
+                ], 
+                [
+                    1172, 
+                    584
+                ], 
+                [
+                    1051, 
+                    584
+                ]
+            ], 
+            "illegibility": true
+        }, 
+        {
+            "transcription": "\u5411\u4f60", 
+            "points": [
+                [
+                    1232, 
+                    78
+                ], 
+                [
+                    1270, 
+                    59
+                ], 
+                [
+                    1279, 
+                    77
+                ], 
+                [
+                    1241, 
+                    93
+                ]
+            ], 
+            "illegibility": false
+        }, 
+        {
+            "transcription": "###", 
+            "points": [
+                [
+                    1215, 
+                    97
+                ], 
+                [
+                    1226, 
+                    95
+                ], 
+                [
+                    1227, 
+                    104
+                ], 
+                [
+                    1216, 
+                    105
+                ]
+            ], 
+            "illegibility": true
+        }
+    ]
+}
