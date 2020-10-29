@@ -18,6 +18,9 @@
 | 360万中文数据集| 语言: 中文  360k      |    每张图片由10个字符构成    |   [下载链接](https://pan.baidu.com/s/1QkI7kjah8SPHwOQ40rS1Pw).  提取码:lu7m |
 | 中文街景数据集CTW|   |   基于字符标注的中文街景图片   |  [下载链接](https://ctwdataset.github.io/) |
 | 百度中文场景文字识别|  语言: 混合  32,285   |     |  [下载链接](https://aistudio.baidu.com/aistudio/datasetdetail/8429)  |
+| MSRA-TD500|  语言: 中英文  Training:300  Test:200   |  .gt格式标签   |  [下载链接](http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_%28MSRA-TD500%29)  |
+| Total-Text|  语言: 英文  Training:1255  Test:300   |     |  [下载链接](https://github.com/cs-chan/Total-Text-Dataset)  |
+
 
 # 数据集标签的修正与更改
 ## 1.ICDAR2019-MLT
@@ -101,7 +104,7 @@ ICDAR2019-LSVT数据标注中的坐标格式是逆时针排列，这和icdar的�
 - **数据简介**：SynthText 数据集由牛津大学工程科学系视觉几何组于2016年在IEEE计算机视觉和模式识别会议(CVPR)上发布。
 数据集由包含单词的自然场景图像组成，其主要运用于自然场景中的文本检测，该数据集由 80 万个图像组成，大约有 800 万个合成单词实例。
 每个文本实例均使用文本字符串、字级和字符级边界框进行注释。
-
+![](./images/synth.png)
 
 ## 11.360万中文数据集
 - **数据简介**：该数据集利用中文语料库（新闻 + 文言文），通过字体、大小、灰度、模糊、透视、拉伸等变化随机生成共约364万张图片，按照99:1划分成训练集和验证集。
@@ -121,6 +124,16 @@ ICDAR2019-LSVT数据标注中的坐标格式是逆时针排列，这和icdar的�
 数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。所有图像都经过一些预处理，将文字区域利用仿射变化，等比映射为一张高为48像素的图片，如图所示：
 ![](./images/baidu.png)
 
+## 14.MSRA-TD500
+- **数据简介**：总共500张自然场景图片(Training:300 + Test:200)。
+数据集特点：多方向文本检测、大部分文本都在引导牌上、分辨率在1296x864到1920x1280之间、包含中英文、标注以行为单位，而不是单词、每张图片都完全标注,难以识别的有difficult标注。
+![](./images/md500.png)
+
+## 15.total-text
+- **数据简介**：总共500张自然场景图片(Training:1255 + Test:300)。
+数据集特点：Total-Text是最大弯曲文本数据集之一-ArT（任意形状文本数据集）训练集中的一部分。用于关于任意形状文本识别阅读任务的创新想法研究。
+![](./images/total.png)
+该代码仓库中运行`python3 total-text_icdar.py `可以将total_text标注的转换成icdar数据标注格式的txt标签
 
 # Contact
 Feel free to contact me if there is any question: <br>
