@@ -9,7 +9,7 @@
 | ICDAR_2015|语言: 英文  train:1000  test:500|x1,y1,x2,y2,x3,y3,x4,y4,text  | [下载链接](https://rrc.cvc.uab.es/?ch=4&com=downloads).  |
 | ICDAR2017-MLT| 语言: 混合  train:7200  test:1800  |   x1,y1,x2,y2,x3,y3,x4,y4,text   |  [下载链接](https://pan.baidu.com/s/1JADvSKXQ6wZ5wCgb6DYjmg). 提取码: z9ey |
 | ICDAR2017-RCTW| 语言: 混合  train:8034  test:4229  |   x1,y1,x2,y2,x3,y3,x4,y4,<识别难易程度>,text  | [下载链接](https://rctw.vlrlab.net/dataset/) |
-| 天池比赛2018| 语言: 混合  train:10000  test:10000      |    x1,y1,x2,y2,x3,y3,x4,y4,text    |  [检测](https://tianchi.aliyun.com/competition/entrance/231685/introduction](https://tianchi.aliyun.com/competition/entrance/231684/introduction)。 [识别]( https://tianchi.aliyun.com/competition/entrance/231684/introduction](https://tianchi.aliyun.com/competition/entrance/231684/introduction) |
+| 天池比赛2018| 语言: 混合  train:10000  test:10000      |    x1,y1,x2,y2,x3,y3,x4,y4,text    |  [检测](https://tianchi.aliyun.com/competition/entrance/231684/introduction)。 [识别](https://tianchi.aliyun.com/competition/entrance/231684/introduction) |
 | ICDAR2019-MLT| 语言: 混合  train:10000  test:10000    |   x1,y1,x2,y2,x3,y3,x4,y4,语言类别,text    |  [下载链接](https://pan.baidu.com/s/1VDAvnvNvg8_SJa_vwEv5Ag). 提取码: xofo    |
 | ICDAR2019-LSVT| 语言: 混合  train:30000  test:20000      |    json格式标签    |  [下载链接](https://rrc.cvc.uab.es/?ch=16) |
 | ICDAR2019-ReCTS| 语言: 混合  train:20000  test:5000      |    json格式标签    |  [下载链接](https://rrc.cvc.uab.es/?ch=12&com=introduction) |
